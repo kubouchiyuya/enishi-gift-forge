@@ -1,6 +1,6 @@
 # Release Gate — enishi-gift-forge
 
-status: `PUBLIC_UPDATE_PENDING`
+status: `PUBLISHED_PUBLIC`
 release_type: `public_skill`
 authorship: `AKATSUKI / MASA independent design`
 source_status: `unavailable`
@@ -21,6 +21,7 @@ quality_score: `97/100 local content gate; public release gate pending`
 - Published artifact commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
 - Documentation read-back commit: `ce71595`
 - License: `All rights reserved / no reuse without prior permission` [user-selected]
+- Published v0.2.0 commit: `52048f9`
 
 ## Post-publication record
 
