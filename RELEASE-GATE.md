@@ -1,6 +1,6 @@
 # Release Gate — enishi-gift-forge
 
-status: `APPROVAL_PENDING`
+status: `PUBLISHED_PUBLIC`
 release_type: `public_skill`
 authorship: `AKATSUKI / MASA independent design`
 source_status: `unavailable`
@@ -18,16 +18,17 @@ quality_score: `97/100 local content gate; public release gate pending`
 - External source: the supplied Grok share URL was not retrievable on 2026-08-03; no source text was copied
 - Public target repository/account: `kubouchiyuya/enishi-gift-forge`
 - Visibility: `public` [user-selected]
+- Public commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
 - License: `All rights reserved / no reuse without prior permission` [user-selected]
 
-## Approval blockers
+## Post-publication record
 
-1. Final live publication approval must be bound to the final content hash.
-2. Confirm the all-rights-reserved wording and author display; this is not an OSI-approved open-source license.
-3. Provide the Grok share text only if source-specific re-design is required.
-4. Confirm whether Lark documentation and notification are required after publication.
+1. User selected the public repository and All rights reserved wording before publication.
+2. GitHub visibility, README, tree, and commit were read back after push.
+3. Source-specific re-design remains optional until the Grok share text is provided.
+4. Lark documentation or notification remains a separate optional operation.
 
-No GitHub repository creation, push, public post, Lark send, or external customer-visible change is performed by this dry-run.
+GitHub repository creation, push, public README, and tree read-back are complete. Lark send and customer-facing follow-up remain separate optional operations.
 
 ## Resume procedure
 

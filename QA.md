@@ -3,7 +3,9 @@
 status: `LOCAL_PASS`
 content_score: `97/100`
 hard_blocks: `0` for independent-design scope
-public_release: `PENDING_APPROVAL`
+public_release: `PUBLISHED_READBACK_PASS`
+public_url: `https://github.com/kubouchiyuya/enishi-gift-forge`
+public_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
 
 ## Checks
 
@@ -28,4 +30,4 @@ public_release: `PENDING_APPROVAL`
 
 - Seminar facts, gift value, budget, inventory, owner, and fulfillment deadline are `[TBD]`.
 - Legal/industry-rule review remains outside the Skill's authority.
-- Final rights wording should be checked once more before publication; target is `kubouchiyuya/enishi-gift-forge` public.
+- GitHub public read-back confirmed; `Other / NOASSERTION` reflects the chosen All rights reserved wording.
