@@ -3,7 +3,8 @@
 status: `LOCAL_PASS`
 content_score: `97/100 local independent re-design`
 hard_blocks: `0` for independent-design scope
-public_release: `UPDATE_PENDING`
+public_release: `PUBLISHED_READBACK_PASS`
+published_v0_2_commit: `52048f9`
 public_url: `https://github.com/kubouchiyuya/enishi-gift-forge`
 published_artifact_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
 documentation_readback_commit: `ce71595`
@@ -32,4 +33,4 @@ documentation_readback_commit: `ce71595`
 - Seminar facts, gift value, budget, inventory, owner, and fulfillment deadline are `[TBD]`.
 - Legal/industry-rule review remains outside the Skill's authority.
 - Authenticated In-app Browser source read-back confirmed; source-specific themes are recorded without copying third-party code/assets.
-- Public GitHub update is required for this v0.2.0 revision.
+- Public GitHub v0.2.0 update was read back after push.

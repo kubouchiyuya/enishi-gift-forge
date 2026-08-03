@@ -1,9 +1,10 @@
 # Release Plan — ENISHI Gift Forge
 
-status: `PUBLIC_UPDATE_PENDING`
+status: `PUBLISHED_PUBLIC`
 target: `new public GitHub repository`
 repository: `https://github.com/kubouchiyuya/enishi-gift-forge`
 published_artifact_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
+published_v0_2_commit: `52048f9`
 documentation_readback_commit: `ce71595`
 rights: `All rights reserved / no reuse without prior permission` `[user-selected; wording review pending]`
 author: `AKATSUKI / MASA`
