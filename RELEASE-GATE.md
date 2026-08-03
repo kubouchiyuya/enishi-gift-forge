@@ -18,7 +18,8 @@ quality_score: `97/100 local content gate; public release gate pending`
 - External source: the supplied Grok share URL was not retrievable on 2026-08-03; no source text was copied
 - Public target repository/account: `kubouchiyuya/enishi-gift-forge`
 - Visibility: `public` [user-selected]
-- Public commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
+- Published artifact commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
+- Documentation read-back commit: `ce71595`
 - License: `All rights reserved / no reuse without prior permission` [user-selected]
 
 ## Post-publication record
