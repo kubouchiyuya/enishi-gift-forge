@@ -3,7 +3,8 @@
 status: `PUBLISHED_PUBLIC`
 target: `new public GitHub repository`
 repository: `https://github.com/kubouchiyuya/enishi-gift-forge`
-public_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
+published_artifact_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
+documentation_readback_commit: `ce71595`
 rights: `All rights reserved / no reuse without prior permission` `[user-selected]`
 author: `AKATSUKI / MASA`
 

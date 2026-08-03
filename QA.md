@@ -5,7 +5,8 @@ content_score: `97/100`
 hard_blocks: `0` for independent-design scope
 public_release: `PUBLISHED_READBACK_PASS`
 public_url: `https://github.com/kubouchiyuya/enishi-gift-forge`
-public_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
+published_artifact_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
+documentation_readback_commit: `ce71595`
 
 ## Checks
 
