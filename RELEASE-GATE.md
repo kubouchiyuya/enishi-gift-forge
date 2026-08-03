@@ -1,6 +1,6 @@
 # Release Gate — enishi-gift-forge
 
-status: `PUBLISHED_PUBLIC`
+status: `PUBLIC_UPDATE_PENDING`
 release_type: `public_skill`
 authorship: `AKATSUKI / MASA independent design`
 source_status: `unavailable`
