@@ -1,38 +1,32 @@
-# Quality Review — enishi-gift-forge v0.1.0
+# Quality Review — ENISHI Gift Forge v0.2.0
 
 review_status: `local_pass`
 content_score: `97/100`
-hard_blocks: `0` for local independent-design scope
-public_release: `BLOCKED pending approval inputs`
+hard_blocks: `0` for independent re-design scope
+public_release: `UPDATE_PENDING`
 
 ## Four-lane score
 
 | Lane | Score | Evidence |
 |---|---:|---|
-| Offer | 24/25 | Candidate comparison fields, `[TBD]` rule, target and fulfillment boundaries |
-| Experience | 24/25 | Referrer/referee separation, self-registration preference, pressure and accessibility checks |
-| Operations | 24/25 | State machine, duplicate/self-referral checks, dry-run, retry, reconciliation |
-| Risk | 25/25 | Consent, privacy, external-write approval, source boundary, Komainu/rights handoff |
+| Position | 24/25 | SNS発信者・経営者・AI中級者、対象課題、対象外 |
+| Product | 24/25 | 専門性棚卸し、商品化、価格仮説、7日間検証 |
+| Collaboration | 24/25 | 提案書、ヒアリング、相手メリット、次の面談 |
+| Evidence/Risk | 25/25 | Grok本文確認、未検証主張の除去、第三者資産の分離、承認境界 |
 
-## Self-audit 1: functional completeness
+## Self-audit
 
-- Trigger phrases are present in frontmatter and README.
-- Inputs cover seminar, audience, condition, gift, budget, fulfillment, channel, region, and source.
-- Outputs cover offer, rules, consent, messages, dry-run, QA, release approval, and improvement log.
-- The flow ends at read-back and reconciliation rather than stopping at copy generation.
-- Missing business facts remain `[TBD]`; no numeric promise is invented.
+- Grok本文はログイン済みIn-app Browserの実DOMから確認した。
+- 参照元の価値提案は採用したが、第三者コード・資産・ロゴ・プロンプト本文はコピーしていない。
+- `last30days-skill`、`agent-skills`、`i-have-adhd`は無審査でインストールせず、任意アダプターに分離した。
+- 未検証のスター数、Trending、成果保証、「全員に刺さる」等を本Skillから除去した。
+- 価格、実績、市場性は本人入力・証拠・仮説に分離した。
+- 外部投稿、送信、インストール、顧客データ連携は承認必須にした。
+- 5分スタートと7日間実験で、配布後の利用開始と検証を具体化した。
 
-## Self-audit 2: risk and provenance
+## Public update checks
 
-- The supplied Grok URL was checked and was not retrievable; no source text was copied.
-- The Skill is labeled as an AKATSUKI independent design, not an official Grok/X derivative.
-- No external repository was cloned because the supplied URL is a conversation share, not a canonical source repository.
-- Local Komainu scan returned `SAFE`, and the Komainu smoke test passed 16/16.
-- External publication, sending, purchase, fulfillment, and personal-data sync remain approval-gated.
-- The public repository, visibility, license, and final author display are still unspecified.
-
-## Remaining improvement items
-
-1. Add a concrete seminar-specific example after the user provides event and gift facts.
-2. Add the selected public license and repository metadata after approval.
-3. Re-run the final hash-bound release gate if the Grok source text is provided.
+- v0.2.0 canonical/mirror sync
+- source card and improvement log updated
+- Komainu scan and secret scan required again before push
+- public README, SKILL.md, QA, and release state must be read back after push

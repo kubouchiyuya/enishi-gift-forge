@@ -2,29 +2,26 @@
 
 ## Before
 
-「紹介者を連れてきた人にプレゼント」という一文だけでは、紹介成立、対象外、重複、同意、費用、在庫、期限、キャンセル、問い合わせ、公開責任が決まらない。
+「スキルをプレゼントする」という案だけでは、誰が何を商品化し、どの協業課題を解き、何をもって検証成功とするかが決まらない。
 
 ## After
 
 ```text
 INTAKE
-  -> SOURCE_BOUNDARY
-  -> OFFER_DRAFT
-  -> REFERRAL_RULES
-  -> CONSENT_AND_PRIVACY
-  -> FULFILLMENT_DRY_RUN
-  -> FOUR_LANE_REVIEW
-  -> NEEDS_APPROVAL
-  -> APPROVED
-  -> FULFILLED
-  -> READ_BACK_AND_RECONCILE
+  -> POSITION
+  -> SIGNAL_AND_EVIDENCE
+  -> PRODUCTIZE
+  -> COLLABORATE
+  -> PUBLISH_DRAFT
+  -> SEVEN_DAY_TEST
+  -> REVIEW_AND_NEXT_ACTION
 ```
 
 ## Value added
 
-1. 紹介先が自分で登録する同意優先導線
-2. 紹介者ID・イベントID・紹介先同意・参加状態を組み合わせた判定
-3. 重複・自己紹介・上限・期限・再送・代替を含む履行設計
-4. Offer / Experience / Operations / Riskの4レーンレビュー
-5. 外部送信・購入・発送・公開を承認payloadとread-backに分離
-6. 参照元が読めない場合も、独立設計として出典境界を壊さない
+1. 発信者・経営者・AI中級者の3対象を共通フローで扱う
+2. 専門性を商品・協業提案・検証発信へ変換する
+3. 価格・成果・市場性を仮説と証拠に分離する
+4. 5分開始と7日間の実験で、実行可能性を担保する
+5. 第三者Skillは任意アダプターとし、無審査インストールを防ぐ
+6. Grokの参考テーマを使いながら、コード・資産・未検証主張はコピーしない

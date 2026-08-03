@@ -1,16 +1,16 @@
 # Release Plan — ENISHI Gift Forge
 
-status: `PUBLISHED_PUBLIC`
+status: `PUBLIC_UPDATE_PENDING`
 target: `new public GitHub repository`
 repository: `https://github.com/kubouchiyuya/enishi-gift-forge`
 published_artifact_commit: `df583a008a9d447ed73e91c01605a0ffae47fca4`
 documentation_readback_commit: `ce71595`
-rights: `All rights reserved / no reuse without prior permission` `[user-selected]`
+rights: `All rights reserved / no reuse without prior permission` `[user-selected; wording review pending]`
 author: `AKATSUKI / MASA`
 
-## Published record
+## Publish gate
 
-The public release was bound to commit `df583a008a9d447ed73e91c01605a0ffae47fca4` after confirming:
+Before public creation or push, bind approval to the final content hash and confirm:
 
 1. Repository name and account.
 2. Public visibility.
